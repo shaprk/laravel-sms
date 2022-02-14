@@ -40,6 +40,6 @@ class SmsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '../config/laravel-sms.php', 'laravel-sms');
+        $this->mergeConfigFrom(__DIR__ . '/../config/laravel-sms.php', 'laravel-sms');
     }
 }
